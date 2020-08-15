@@ -1,0 +1,9 @@
+.wrapper-table {
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+.wrapper-btn {
+  display: flex;
+  justify-content: space-between;
+}

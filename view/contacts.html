@@ -1,0 +1,37 @@
+<div>
+  <h3 class="title">List of users</h3>
+  <div class="table-responsive">
+    <table class="table table-borderless table-hover">
+      <tr>
+        <th>Full name</th>
+        <th>Birthday</th>
+        <th>Contact phone</th>
+        <th>Contact email</th>
+        <th>Status</th>
+        <th>Alter user</th>
+        <th>Delete user</th>
+      </tr>
+      <tr ng-repeat="user in users">
+        <td>{{user.fullName}}</td>
+        <td>{{user.birthday | date}}</td>
+        <td>{{user.contact.phone}}</td>
+        <td>{{user.contact.email}}</td>
+        <td>{{user.status}}</td>
+        <td>
+          <a class="btn btn-outline-secondary" href="#/userDetail{{user._id}}">
+            Edit</a
+          >
+        </td>
+        <td>
+          <button
+            class="btn btn-outline-danger"
+            ng-click="deleteUser(user._id)"
+          >
+            Delete user
+          </button>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <a class="btn btn-outline-primary" href="#/addContact">Register a new user</a>
+</div>
