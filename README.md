@@ -29,3 +29,26 @@ Na tela de listagem de clientes, o usuário deve conseguir clicar em algum clien
 - 2.Git
 - 3.bootstrap
 
+## Como rodar a aplicação 
+
+
+No terminal, clone o projeto:
+
+```git clone: https://github.com/felipe0520/gerencert-frontend/ ```
+
+Entre na pasta do projeto  :
+```gerencert-frontend```
+
+Instale as dependências : 
+```npm install ```
+
+Execute a aplicação:
+Utilize alguma extensão para simular um servidor. Foi usado o live server
+
+
+
+Obs: Para rodar a aplicação é necessário um banco de dados e obter os dados necessários
+
+## Gif da aplicação
+
+![](gif/test.gif)
