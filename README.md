@@ -45,6 +45,10 @@ Instale as dependências :
 Execute a aplicação:
 Utilize alguma extensão para simular um servidor. Foi usado o live server
 
+## bugs
+
+O sistema de alteração de páginas não está funcionando corretamente.
+A aplicação usa o ``` $location.path ``` para tentar essas alterações após finalizar uma tarefa
 
 
 Obs: Para rodar a aplicação é necessário um banco de dados e obter os dados necessários
