@@ -20,8 +20,12 @@ Na tela de listagem de clientes, o usuário deve conseguir clicar em algum clien
 
 # Requisitos 
 
-- Consultar clientes
-- Cadastrar novo cliente
-- Consultar cliente por ID
-- Editar cliente por ID
-- Remover cliente
+- Angular 1.6
+- Git
+
+### Principais tecnologias utilizadas:
+
+- 1.Angular 1.6
+- 2.Git
+- 3.bootstrap
+
