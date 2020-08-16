@@ -2,7 +2,7 @@
   <h3 class="title">List of users</h3>
   <div class="table-responsive">
     <table class="table table-borderless table-hover">
-      <tr>
+      <thead>
         <th>Full name</th>
         <th>Birthday</th>
         <th>Contact phone</th>
@@ -10,7 +10,7 @@
         <th>Status</th>
         <th>Alter user</th>
         <th>Delete user</th>
-      </tr>
+      </thead>
       <tr ng-repeat="user in users">
         <td>{{user.fullName}}</td>
         <td>{{user.birthday | date}}</td>
